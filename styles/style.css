@@ -18,3 +18,15 @@ input[type=checkbox], input[type=radio] {
 	width: 161px;
 	height: 160px;
 }
+
+.off {
+  background: url('form-elements-sprite.png') no-repeat -582px -242px;
+	width: 167px;
+	height: 166px;
+}
+
+.on {
+  background: url('form-elements-sprite.png') no-repeat -812px -242px;
+	width: 168px;
+	height: 166px;
+}
