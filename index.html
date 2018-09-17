@@ -4,13 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="styles/style.css" />
   <title>Document</title>
 </head>
 <body>
+  
   <form action="">
-    <label id="textbox" for="input">Text</label>
+    <div>
+    <label id="textbox" for="input">Text Input</label>
+    </div>
+    <div>
     <input name="validate" type="text" placeholder="placeholder text">
-    <label id="dropdown" for="drop-down">Select</label>
+    </div>
+    <div>
+    <label id="dropdown" for="drop-down">Select Box</label>
+    </div>
+    <div>
     <select name="drop-down" id="">
         <option value="1">Option 1</option>
         <option value="2">Option 2</option>
@@ -18,8 +27,17 @@
         <option value="4">Option 4</option>
         <option value="5">Option 5</option>
     </select>
-    <input type="radio" name="rad">
-    <input type="radio" name="rad">
+    </div>
+    <div>
+    <label class="checkbox-container"> checkbox
+      <input type="checkbox" name="box">
+      <input type="checkbox" name="box">
+    </label>
+    </div>
+    <label class="radio-container">radio
+      <input type="radio" name="rad">
+      <input type="radio" name="rad">
+    </label> 
     <input type="submit" value="Submit">
   </form>
 </body>
