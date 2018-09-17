@@ -12,3 +12,9 @@ input[type=checkbox], input[type=radio] {
 	width: 161px;
 	height: 160px;
 }
+
+.checked {
+  background: url('form-elements-sprite.png') no-repeat -381px -239px;
+	width: 161px;
+	height: 160px;
+}

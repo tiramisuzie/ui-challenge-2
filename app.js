@@ -1,6 +1,6 @@
 'use strict'
 
-$('.checkbox-container').on('click', () => {
+$('.checkbox').on('click', () => {
   $(event.target).toggleClass('unchecked');
   $(event.target).toggleClass('checked');
 });
